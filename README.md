@@ -12,6 +12,8 @@ This dataset (ml-latest) describes 5-star rating and free-text tagging activity 
 -----------------------------------------
 
 For the purpose of this project, I will be using only these two files:
+
+
 1.Movies Data File Structure (movies.csv)
 ---------------------------------------
 
@@ -22,6 +24,7 @@ Movie information is contained in the file `movies.csv`. Each line of this file 
 Movie titles are entered manually or imported from <https://www.themoviedb.org/>, and include the year of release in parentheses. Errors and inconsistencies may exist in these titles.
 
 Genres are a pipe-separated list.
+
 
 2.Ratings Data File Structure (ratings.csv)
 -----------------------------------------
@@ -39,6 +42,7 @@ Timestamps represent seconds since midnight Coordinated Universal Time (UTC) of 
 -----------------------------------------
 
 This jupyter notebook includes the following:
+
 1. Loading the data into dataframes/
 
 2. Exploring the data values to gain a better understanding of it. Do this by using statistical measures like the average and with the help of graphs like the histogram to visualize the data.
