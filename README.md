@@ -50,4 +50,5 @@ This jupyter notebook includes the following:
 3. Now build the recommendation system. 
    The (simplistic) problem statement is: Given that user X has watched movie Y and rated it 5 stars,    we recommended a movie Z, such that other users that watched Y and rated it 5 stars also watched      movie Z and rated it 5 stars.  
    
-4. To measure the likelihood that movie Z will be recommended, find the correlation between 2 movies    across the user ratings. This will answer the questions, "users who watched movie Y are most          likely to watch movie Z". 
+4. To measure the likelihood that movie Z will be recommended, find the correlation between 2 movies    across the user ratings. Correlation between two movies answers the question, "how do the user        ratings for two movies fluctuate?"
+   One (trivial) expectation would be that users who watched Finding Dory also watched Finding Nemo,    and rated these movies similarly. This follows that the correlation between these two movies would    tend to 1. And thus, Finding Dory can be recommended to a user who watched and highly rated          Finding Nemo.
